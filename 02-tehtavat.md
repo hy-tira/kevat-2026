@@ -2,7 +2,7 @@
 title: Tehtävät
 permalink: /tehtavat/
 ---
-    
+
 # Tehtävät
 
 Sinun tulee ratkoa joka viikolta ainakin 5/8 tehtävää deadlineen mennessä, jotta saat suorituksen kurssista.
@@ -13,6 +13,5 @@ Kurssin tehtävät palautetaan CSES-järjestelmään, joka arvostelee ne automaa
 
 Linkki tehtäviin julkaistaan tässä kurssin alkaessa.
 
-<!--
-* [Siirry tehtäviin](https://cses.fi/tira25s/list/)
--->
+
+* [Siirry tehtäviin](https://cses.fi/tira26k/list/)
