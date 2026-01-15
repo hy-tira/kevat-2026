@@ -50,8 +50,10 @@ Julkaisu | 12.3. | 12.3. | 19.3. | 19.3. | 26.3. | 26.3. | 2.4. | 2.4. |
 ## Tentit
 
 Kurssin I-osan tentti järjestetään 2.3. klo 13 alkaen Kumpulan kampuksella.
+Korvaavat tentit järjestetään 12.3. ja 26.3. klo 16 alkaen.
 
 Kurssin II-osan tentti järjestetään 8.5. klo 13 alkaen Kumpulan kampuksella.
+Korvaavat tentit järjestetään 21.5. ja 4.6. klo 16 alkaen.
 
 Lisätietoa julkaistaan lähempänä tenttejä. Sinun tulee ilmoittautua tenttiin viimeistään kolme päivää ennen tenttiä.
 
