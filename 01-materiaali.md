@@ -2,7 +2,7 @@
 title: Materiaali
 permalink: /materiaali/
 ---
-    
+
 # Materiaali
 
 Tämän sivuston verkkomateriaali riittää kurssin suorittamiseen. Materiaalin tekijä on Antti Laaksonen ja löydät materiaalin lähdekoodin [GitHubista](https://github.com/hy-tira/kevat-2026).
@@ -18,7 +18,7 @@ Voit myös katsoa kaiken materiaalin samalla sivulla:
 
 ### I-osa
 
-Tulossa
+* [Luento 15.1.2026](https://www.helsinki.fi/fi/unitube/video/e78268ae-4781-496e-b174-3530f9ccf190)
 
 ### II-osa
 
