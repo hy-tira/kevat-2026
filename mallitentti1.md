@@ -8,7 +8,7 @@ hide: true
 
 Seuraava mallitentti antaa näytteen siitä, millainen on kurssin I-osan tentti.
 
-Tentti muodostuu viidestä tehtävästä, jotka ovat samantapaisia kuin mallitentissä. Kurssin suoritus vaatii, että ratkaiset ainakin neljä ensimmäistä tehtävää. Arvosana 5 vaatii, että ratkaiset myös viimeisen tehtävän.
+Tentti muodostuu viidestä tehtävästä, jotka ovat samantapaisia kuin mallitentissä. Kurssin suoritus vaatii, että ratkaiset ainakin kolme ensimmäistä tehtävää. Kaksi viimeistä tehtävää liittyy arvosanoihin 4 ja 5.
 
 Ohjelmointitehtävissä koodi tulee toteuttaa Python-kielellä. Oleellista on, että koodin logiikka ja kokonaisuus ovat kunnossa. Erityisesti pieneet virheet (esim. jostain puuttuu sulku) eivät haittaa.
 
@@ -35,67 +35,33 @@ def create_list(n):
 
 ## Tehtävä 2
 
-Tehtävä 2 sisältää kymmenen monivalintakysymystä liittyen kurssin perusasioihin. Sinun tulee saada vähintään kahdeksan kysymystä oikein, jotta pääset kurssin läpi.
+Tehtävä 2 on ohjelmointitehtävä, jossa tulee toteuttaa tehokas algoritmi. Sinun tulee ratkaista tämä tehtävä, jotta pääset kurssin läpi.
 
-**Esimerkkitehtävä (osa)**
-
-1. Pythonissa listan metodi `index` etsii annetun alkion indeksin listalla. Mikä on metodin aikavaativuus?
-  (a) $$O(1)$$
-  (b) $$O(\log n)$$
-  (c) $$O(n)$$
-  (d) $$O(n^2)$$
-
-2. Mitä seuraava Python-koodi tulostaa?
-```python
-a = [4, 3, 2, 1]
-b = sorted(a)
-print(a[0])
-```
-   (a) 1
-   (b) 2
-   (c) 3
-   (d) 4
-
-3. Verkossa on 8 solmua ja 5 kaarta. Montako komponenttia verkossa on vähintään?
-   (a) 3 (b) 4 (b) 5 (b) 6
-
-**Malliratkaisu (osa)**
-
-1. Metodin aikavaativuus on $$O(n)$$.
-2. Koodi tulostaa luvun 4.
-3. Verkossa on vähintään 3 komponenttia.
-
-## Tehtävä 3
-
-Tehtävä 3 on ohjelmointitehtävä, jossa tulee toteuttaa $$O(n)$$-aikainen tehokas algoritmi. Sinun tulee ratkaista tämä tehtävä, jotta pääset kurssin läpi.
-
-Tehtävän ratkaisuun riittää koodi, jossa for-silmukka käy listan läpi ja käsittelee muuttujia sopivalla tavalla.
+Tehtävän ratkaisuun riittää koodi, jossa for-silmukka käy listan läpi ja käsittelee muuttujia ja tietorakenteita sopivalla tavalla.
 
 **Esimerkkitehtävä**
 
-Tee Python-funktio `count_pairs(numbers)`, joka kertoo, monellako tavalla listasta voidaan valita kaksi eri kohdissa olevaa lukua niin, että lukujen summa on parillinen. Funktion aikavaativuuden tulee olla $$O(n)$$.
+Tee Python-funktio `count_lists(numbers)`, joka kertoo, monessako listan osalistassa on alussa ja lopussa sama luku. Funktion tulee toimia tehokkaasti suurillakin listoilla.
 
-Esimerkiksi jos lista on `[1, 2, 1, 4]`, haluttu tulos on 2, koska mahdolliset parit ovat (1, 1) ja (2, 4).
+Esimerkiksi jos lista on `[1, 2, 1, 2, 1]`, haluttu tulos on 9, koska mahdolliset osalistat ovat `[1]` (3 kertaa), `[2]` (2 kertaa), `[1, 2, 1]` (2 kertaa), `[2, 1, 2]` ja `[1, 2, 1, 2, 1]`.
 
 **Malliratkaisu**
 
 ```python
 def count_pairs(numbers):
-    even_count = odd_count = 0
+    counts = {}
     result = 0
     for number in numbers:
-        if number % 2 == 0:
-            result += even_count
-            even_count += 1
-        else:
-            result += odd_count
-            odd_count += 1
+        if number not in counts:
+            counts[number] = 0
+        counts[number] += 1
+        result += counts[number]
     return result
 ```
 
-## Tehtävä 4
+## Tehtävä 3
 
-Tehtävä 4 on ohjelmointitehtävä, jossa tulee toteuttaa rekursiivinen algoritmi puun läpikäyntiin. Sinun tulee ratkaista tämä tehtävä, jotta pääset kurssin läpi.
+Tehtävä 3 on ohjelmointitehtävä, jossa tulee toteuttaa rekursiivinen algoritmi puun läpikäyntiin. Sinun tulee ratkaista tämä tehtävä, jotta pääset kurssin läpi.
 
 Tehtävän ratkaisuun riittää koodi, joka käy läpi rekursiivisesti solmun lapset ja laskee halutun tuloksen muuttujien avulla.
 
@@ -124,6 +90,31 @@ def count_leaves(node):
     for child in node.children:
         result += count_leaves(child)
     return result
+```
+
+## Tehtävä 4
+
+Tehtävä 4 on vaikeampi ohjelmointitehtävä. Sinun tulee ratkaista tämä tehtävä, jos haluat kurssista arvosanan 4 tai 5. Tehtävä ei vaikuta muihin arvosanoihin.
+
+**Esimerkkitehtävä**
+
+Tee Python-funktio `min_removals(numbers)`, joka kertoo, montako lukua listasta tulee vähintään poistaa, jotta lopullisessa listassa on sama luku alussa ja lopussa. Joka askeleella saat poistaa yhden luvun listan alusta tai lopusta. Funktion tulee toimia tehokkaasti suurillakin listoilla.
+
+Esimerkiksi jos lista on `[1, 2, 3, 4, 3, 6]`, haluttu tulos on 3, koska voit poistaa kaksi lukua listan alusta ja yhden luvun listan lopusta, jolloin lopullinen lista on `[3, 4, 3]`. Tämä on pienin mahdollinen määrä poistettavia lukuja.
+
+**Malliratkaisu**
+
+```python
+def min_removals(numbers):
+    n = len(numbers)
+    last_pos = {}
+    result = 1
+    for i in range(n):
+        number = numbers[i]
+        if number in last_pos:
+            result = max(result, i - last_pos[number] + 1)
+        last_pos[number] = i
+    return n - result
 ```
 
 ## Tehtävä 5
