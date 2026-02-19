@@ -23,6 +23,7 @@ Voit myös katsoa kaiken materiaalin samalla sivulla:
 * [Luento 29.1.2026](https://www.helsinki.fi/fi/unitube/video/53b92b85-022c-4749-8e9c-e7453250076b)
 * [Luento 5.2.2026](https://www.helsinki.fi/fi/unitube/video/4c620ce4-b203-4e0c-b3ad-47fe1eb7697a)
 * [Luento 12.2.2026](https://www.helsinki.fi/fi/unitube/video/2b01f2a8-2395-42a9-8646-ad0f797d87fa)
+* [Luento 19.2.2026](https://www.helsinki.fi/fi/unitube/video/9b09199e-df5e-48c3-88b2-995242e8437d)
 
 ### II-osa
 
