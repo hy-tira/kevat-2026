@@ -107,13 +107,14 @@ Esimerkiksi jos lista on `[1, 2, 3, 4, 3, 6]`, haluttu tulos on 3, koska voit po
 ```python
 def min_removals(numbers):
     n = len(numbers)
-    last_pos = {}
+    first_pos = {}
     result = 1
     for i in range(n):
         number = numbers[i]
-        if number in last_pos:
-            result = max(result, i - last_pos[number] + 1)
-        last_pos[number] = i
+        if number in first_pos:
+            result = max(result, i - first_pos[number] + 1)
+        else:
+            first_pos[number] = i
     return n - result
 ```
 
