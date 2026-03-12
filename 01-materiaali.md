@@ -28,7 +28,7 @@ Voit myös katsoa kaiken materiaalin samalla sivulla:
 
 ### II-osa
 
-Tulossa
+* [Luento 12.3.2026](https://www.helsinki.fi/fi/unitube/video/c73958d4-b96e-41d4-babb-1e79c48af997)
 
 ## Aiempi kurssikirja
 
