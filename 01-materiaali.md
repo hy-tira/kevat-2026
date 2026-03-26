@@ -30,6 +30,7 @@ Voit myös katsoa kaiken materiaalin samalla sivulla:
 
 * [Luento 12.3.2026](https://www.helsinki.fi/fi/unitube/video/c73958d4-b96e-41d4-babb-1e79c48af997)
 * [Luento 19.3.2026](https://www.helsinki.fi/fi/unitube/video/80a9cf40-19a1-42af-8096-761f879cd990)
+* [Luento 26.3.2026](https://www.helsinki.fi/fi/unitube/video/ce2eccd2-76ce-4821-a673-044c646e923b)
 
 ## Aiempi kurssikirja
 
