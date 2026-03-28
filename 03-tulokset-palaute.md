@@ -1,11 +1,9 @@
 ---
 title: Tulokset ja palaute
 permalink: /tulokset-palaute/
-hide: true
 ---
 
 # Tulokset ja palaute
 
 * [Kurssin I-osan loppuraportti](../raportti1)
-* [Kurssin I-osan analyysi](../analyysi)
-* [Kurssin II-osan loppuraportti](../raportti2)
+* [Tekoälyn käyttöä Tirassa](../tekoaly)
