@@ -36,4 +36,4 @@ Tentissä ei ole sallittua käyttää tietokonetta, puhelinta eikä kirjallista 
 ## Mallitentit
 
 * [Kurssin I-osan mallitentti](../mallitentti1/)
-* Kurssin II-osan mallitentti (tulossa)
+* [Kurssin II-osan mallitentti](../mallitentti2/)

@@ -8,32 +8,11 @@ hide: true
 
 Seuraava mallitentti antaa näytteen siitä, millainen on kurssin II-osan tentti.
 
-Tentti muodostuu viidestä tehtävästä, jotka ovat samantapaisia kuin mallitentissä. Kurssin suoritus vaatii, että ratkaiset ainakin neljä ensimmäistä tehtävää. Arvosana 5 vaatii, että ratkaiset myös viimeisen tehtävän.
+Tentti muodostuu viidestä tehtävästä, jotka ovat samantapaisia kuin mallitentissä. Kurssin suoritus vaatii, että ratkaiset ainakin neljä ensimmäistä tehtävää. Kaksi viimeistä tehtävää liittyy arvosanoihin 4 ja 5.
 
 ## Tehtävä 1
 
-Tehtävä 1 on ohjelmointitehtävä, jonka aiheena on ohjelmoinnin perusteet. Sinun tulee ratkaista tämä tehtävä, jotta pääset kurssin läpi.
-
-**Esimerkkitehtävä**
-
-Tee Python-funktio `create_list(n)`, joka palauttaa listan, jossa on kerran luku 1, kahdesti luku 2, kolmesti luku 3, jne. lukuun `n` asti.
-
-Esimerkiksi jos `n = 4`, funktion tulee palauttaa lista `[1, 2, 2, 3, 3, 3, 4, 4, 4, 4]`.
-
-**Malliratkaisu**
-
-```python
-def create_list(n):
-    result = []
-    for i in range(1, n + 1):
-        for j in range(i):
-            result.append(i)
-    return result
-```
-
-## Tehtävä 2
-
-Tehtävässä 2 sinun tulee kertoa, minkä tuloksen tietty kurssilla käsitelty verkkoalgoritmi tuottaa annetulle verkolle. Sinun tulee ratkaista tämä tehtävä, jotta pääset kurssin läpi.
+Tehtävässä 1 sinun tulee kertoa, minkä tuloksen tietty kurssilla käsitelty verkkoalgoritmi tuottaa annetulle verkolle. Sinun tulee ratkaista tämä tehtävä, jotta pääset kurssin läpi.
 
 **Esimerkkitehtävä**
 
@@ -51,9 +30,9 @@ Dijkstran algoritmi laskee lyhimmän etäisyyden aloitussolmusta kuhunkin solmuu
 - Solmu 4: 3
 - Solmu 5: 6
 
-## Tehtävä 3
+## Tehtävä 2
 
-Tehtävässä 3 sinun tulee antaa esimerkki verkosta, jolla on tiettyjä ominaisuuksia. Sinun tulee ratkaista tämä tehtävä, jotta pääset kurssin läpi.
+Tehtävässä 2 sinun tulee antaa esimerkki verkosta, jolla on tiettyjä ominaisuuksia. Sinun tulee ratkaista tämä tehtävä, jotta pääset kurssin läpi.
 
 **Esimerkkitehtävä**
 
@@ -67,9 +46,9 @@ Tässä on halutunlainen verkko:
 
 Vahvasti yhtenäiset komponentit ovat $$\{1,2,4\}$$, $$\{3\}$$ ja $$\{5\}$$.
 
-## Tehtävä 4
+## Tehtävä 3
 
-Tehtävässä 4 sinun tulee näyttää, miksi annettu ahne algoritmi ei ole toimiva. Sinun tulee ratkaista tämä tehtävä, jotta pääset kurssin läpi.
+Tehtävässä 3 sinun tulee näyttää, miksi annettu ahne algoritmi ei ole toimiva. Sinun tulee ratkaista tämä tehtävä, jotta pääset kurssin läpi.
 
 **Esimerkkitehtävä**
 
@@ -82,6 +61,39 @@ Näytä esimerkki listasta, jossa tämä ahne algoritmi ei toimi oikein. Minkä 
 **Malliratkaisu**
 
 Ahne algoritmi ei toimi oikein esimerkiksi listassa $$[2,3,1]$$. Tässä listassa algoritmi muodostaa alijonon $$[1]$$ mutta pisin nouseva alijono on $$[2,3]$$.
+
+## Tehtävä 4
+
+Tehtävän 4 aiheena on rekursio. Sinun tulee ratkaista tämä tehtävä, jos haluat kurssista arvosanan 4 tai 5. Tehtävä ei vaikuta muihin arvosanoihin.
+
+**Esimerkkitehtävä**
+
+Tarkastellaan seuraavaa funktiota:
+
+```python
+def f(n):
+    result = 1
+    if n % 2 == 0:
+        result += f(n // 2)
+    if n % 3 == 0:
+        result += f(n // 3)
+    return result
+```
+
+Minkä arvon palauttaa funktiokutsu `f(6)`?
+
+**Malliratkaisu**
+
+Lasketaan funktion arvot:
+
+* `f(1) = 1`
+* `f(2) = 1 + f(1) = 2`
+* `f(3) = 1 + f(1) = 2`
+* `f(4) = 1 + f(2) = 3`
+* `f(5) = 1`
+* `f(6) = 1 + f(3) + f(2) = 5`
+
+Siis funktiokutsu `f(6)` palauttaa arvon `5`.
 
 ## Tehtävä 5
 
