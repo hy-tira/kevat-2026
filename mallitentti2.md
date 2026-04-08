@@ -8,7 +8,7 @@ hide: true
 
 Seuraava mallitentti antaa näytteen siitä, millainen on kurssin II-osan tentti.
 
-Tentti muodostuu viidestä tehtävästä, jotka ovat samantapaisia kuin mallitentissä. Kurssin suoritus vaatii, että ratkaiset ainakin neljä ensimmäistä tehtävää. Kaksi viimeistä tehtävää liittyy arvosanoihin 4 ja 5.
+Tentti muodostuu viidestä tehtävästä, jotka ovat samantapaisia kuin mallitentissä. Kurssin suoritus vaatii, että ratkaiset ainakin kolme ensimmäistä tehtävää. Kaksi viimeistä tehtävää liittyy arvosanoihin 4 ja 5.
 
 ## Tehtävä 1
 
