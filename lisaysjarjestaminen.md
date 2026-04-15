@@ -14,7 +14,7 @@ Algoritmi käy läpi listan kohdat vasemmalta oikealle. Jokaisessa listan kohdas
 
 Seuraava kuva näyttää, miten lisäysjärjestäminen järjestää listan $$[5,2,4,2,6,1]$$.
 
-![](lisaysjarjestaminen.png)
+![](img/lisaysjarjestaminen.png)
 
 ## Toteutus
 

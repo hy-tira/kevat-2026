@@ -16,7 +16,7 @@ Algoritmi hyödyntää rekursiota niin, että se järjestää listan vasemman ja
 
 Seuraava kuva näyttää, miten lisäysjärjestäminen järjestää listan $$[5,1,2,9,7,5,4,2]$$.
 
-![](lomitusjarjestaminen.png)
+![](img/lomitusjarjestaminen.png)
 
 ## Toteutus
 

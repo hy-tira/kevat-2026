@@ -18,7 +18,7 @@ Minimikeossa jokaisen solmun alkio on yhtä suuri tai suurempi kuin solmun vanhe
 
 Seuraava minimikeko sisältää alkiot $$[1,3,4,5,5,5,7,8,8,9]$$:
 
-![](keko.png)
+![](img/keko.png)
 
 Keon sisältö voidaan esittää listana, joka sisältää keon alkiot taso kerrallaan ylhäältä alas. Esimerkiksi yllä olevaa kekoa vastaa lista $$[1,3,5,4,5,8,9,7,8,5]$$. Kun alkio on listassa kohdassa $$k$$, sen vasen lapsi on kohdassa $$2k+1$$, oikea lapsi on kohdassa $$2k+2$$ ja vanhempi on kohdassa $$\lfloor (k-1)/2 \rfloor$$. Esimerkiksi alkio $$3$$ on kohdassa $$1$$, sen lapset ovat kohdissa $$3$$ ja $$4$$ ja sen vanhempi on kohdassa $$0$$.
 
@@ -28,7 +28,7 @@ Uusi alkio lisätään uudeksi solmuksi keon pohjalle listan loppuun. Tämän j�
 
 Seuraava kuva näyttää, miten alkio $$2$$ voidaan lisätä kekoon. Alkio lisätään aluksi keon pohjalle, minkä jälkeen se nostetaan kaksi tasoa ylöspäin.
 
-![](keko_1.png)
+![](img/keko_1.png)
 
 Alkion lisääminen vie aikaa $$O(\log n)$$, koska alkio nousee jonkin määrän tasoja ylöspäin keossa ja keon tasojen määrä on $$O(\log n)$$.
 
@@ -38,7 +38,7 @@ Keon juuressa oleva alkio voidaan poistaa siirtämällä sen tilalle keon viimei
 
 Seuraava kuva näyttää, miten pienin alkio $$1$$ voidaan poistaa keosta. Sen tilalle siirretään keon pohjalta alkio $$5$$, joka lasketaan sitten alaspäin.
 
-![](keko_2.png)
+![](img/keko_2.png)
 
 Alkion lisääminen vie aikaa $$O(\log n)$$, koska alkio laskeutuu jonkin määrän tasoja alaspäin keossa ja keon tasojen määrä on $$O(\log n)$$.
 
