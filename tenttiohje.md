@@ -19,7 +19,7 @@ Kurssin kumpikin osasuoritus vaatii osallistumisen tenttiin Kumpulan kampuksella
 ### II-osa
 
 * Kurssin II-osan tentti järjestetään 8.5. klo 13:00 alkaen Exactumin salissa A111. Ilmoittaudu tenttiin viimeistään 5.5. [lomakkeella](https://elomake.helsinki.fi/lomakkeet/138972/).
-* Ensimmäinen korvaava tentti järjestetään to 21.5. klo 16:00 alkaen Exactumin salissa D123. Ilmoittaudu tenttiin viimeistään 18.5. [lomakkeella](https://elomake.helsinki.fi/lomakkeet/138973/).
+* Ensimmäinen korvaava tentti järjestetään to 21.5. klo 16:00 alkaen Exactumin salissa CK112. Ilmoittaudu tenttiin viimeistään 18.5. [lomakkeella](https://elomake.helsinki.fi/lomakkeet/138973/).
 * Toinen korvaava tentti järjestetään to 4.6. klo 13:00 alkaen Exactumin salissa D123. Ilmoittaudu tenttiin viimeistään 1.6. [lomakkeella](https://elomake.helsinki.fi/lomakkeet/138974/).
 
 ## Osallistuminen
