@@ -3,7 +3,7 @@ title: Kurssin I-osan loppuraportti
 permalink: /raportti1/
 hide: true
 ---
-    
+
 # Kurssin I-osan loppuraportti
 
 Kurssille osallistui 244 opiskelijaa, joista 99 (40.6 %) suoritti kurssin hyväksytysti.
