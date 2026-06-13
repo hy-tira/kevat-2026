@@ -3,8 +3,8 @@ title: Tekoälyn käyttöä Tirassa
 permalink: /tekoaly/
 hide: true
 ---
-    
-# Tekoälyn käyttöä Tirassa
+
+# Tekoälyn käyttöä Tirassa (osa 1)
 
 Kurssin säännöissä on selkeästi kielletty tehtävien ratkominen tekoälyn avulla, mutta ei tietenkään kannata ajatella, että tämän seurauksena kukaan kurssin osallistuja ei ratkoisi tehtäviä tekoälyllä.
 
