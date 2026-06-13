@@ -1,5 +1,5 @@
 ---
-title: Tekoälyn käyttöä Tirassa
+title: Tekoälyn käyttöä Tirassa (osa 2)
 permalink: /tekoaly2/
 hide: true
 ---

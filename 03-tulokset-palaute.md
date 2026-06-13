@@ -9,3 +9,5 @@ permalink: /tulokset-palaute/
 * [Tekoälyn käyttöä Tirassa (osa 1)](../tekoaly)
 * [Kurssin II-osan loppuraportti](../raportti2)
 * [Tekoälyn käyttöä Tirassa (osa 2)](../tekoaly2)
+* [Tiran tulevaisuus](../tulevaisuus)
+
